@@ -251,5 +251,16 @@ use "ENAHO_TOTAL_V2",clear
 rename nanio a_o 
 merge 1:1 conglome vivienda hogar a_o using nuevas_variables 
 
+label var tierra_total "Area de explotacion agropecuaria"
+label var porc_agro "% de PEA en Act. Agropecuarias"
+label var ano_edu "Años de educación promedio de mayores de 21 años"
+label var indep "Numero de trabajadores independientes"
+label var depend_no_agro "Número de trabajadores dependientes no agricolas"
+label var desastre "Hogar sufrió un desastre natural"
+label var redes "Numero de redes a las que pertenece la familia"
+label var trab_depen "máx trab dep"
+label var trab_indep "máx trab indep"
+
+
 saveold "ENAHO_TOTAL_V2",replace
 clear
